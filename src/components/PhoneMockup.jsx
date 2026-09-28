@@ -45,8 +45,8 @@ export default function PhoneMockup() {
               <div className="big">99.8%</div>
               <div className="spark">{bars.map((h, i) => <i key={i} style={{ '--h': `${h}%`, '--d': `${i * 80}ms` }} />)}</div>
             </div>
-            <div className="tile"><span className="ic" style={{ '--c': '#13B9FD' }}>🚗</span><div><b>ConViniCar</b><small>Tow truck · 6 min away</small></div></div>
-            <div className="tile"><span className="ic" style={{ '--c': '#22c55e' }}>📝</span><div><b>BT DO</b><small>3 reports saved offline</small></div></div>
+            <div className="tile"><span className="ic" style={{ '--c': '#13B9FD' }}>🚗</span><div><b>Roadside Assist</b><small>Tow truck · 6 min away</small></div></div>
+            <div className="tile"><span className="ic" style={{ '--c': '#22c55e' }}>📝</span><div><b>Field Forms</b><small>3 reports saved offline</small></div></div>
             <div className="tile"><span className="ic" style={{ '--c': '#f59e0b' }}>🔔</span><div><b>Push sent</b><small>12k devices · just now</small></div></div>
           </div>
 

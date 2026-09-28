@@ -44,7 +44,7 @@ function FormScreen() {
   return (
     <div className={`mp-screen form ${visible ? 'on' : ''}`} ref={ref}>
       <div className="sync-pill"><span className="sync-dot" /><span className="sync-text" /></div>
-      <div className="form-head"><b>New Report</b><small>BT DO · Field form</small></div>
+      <div className="form-head"><b>New Report</b><small>Field Forms · Offline</small></div>
       <div className="form-tabs"><span>Installation</span><span>Assessment</span><span className="on">Maintenance</span></div>
       {formFields.map(([label, value], i) => (
         <div className="field" key={label} style={{ '--d': `${0.3 + i * 0.7}s`, '--n': value.length }}>
@@ -73,8 +73,8 @@ function CareScreen() {
   return (
     <div className={`mp-screen care ${visible ? 'on' : ''}`} ref={ref}>
       <div className="care-head">
-        <img src={`${import.meta.env.BASE_URL}bt-homecare.png`} alt="" />
-        <b>BT Homecare</b>
+        <span className="care-ic">🏡</span>
+        <b>Home Care</b>
       </div>
       <div className="role-toggle" style={{ '--r': role }}>
         <i /><span className={role === 0 ? 'on' : ''}>Caregiver</span><span className={role === 1 ? 'on' : ''}>Family</span>

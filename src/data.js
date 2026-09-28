@@ -62,8 +62,8 @@ export const projects = [
   {
     id: 'care',
     tag: 'Health-tech · Published on Play Store',
-    name: 'BT Homecare',
-    subtitle: 'Digital Care Communications',
+    name: 'Home Care Companion',
+    subtitle: 'Caregiver & Family Care App',
     points: [
       'Connects <b>caregivers and families</b> with secure, <b>role-based access</b> to care information.',
       'Caregivers view assigned communities and resident info, and coordinate care tasks with a built-in <b>QR scanner</b> for hands-free workflows.',
@@ -76,7 +76,7 @@ export const projects = [
   {
     id: 'car',
     tag: 'Automotive · Multi-tenant · Published on Play Store',
-    name: 'ConViniCar',
+    name: 'Roadside Assist',
     subtitle: 'One-Call Car Repair & Roadside Help',
     points: [
       'Helps car owners after an <b>unexpected breakdown or accident</b>: <b>one request</b> dispatches towing, repair, car rental and insurance as a single service.',
@@ -90,10 +90,10 @@ export const projects = [
   {
     id: 'form',
     tag: 'NGO · Offline Forms · Published on Play Store',
-    name: 'BT DO',
-    subtitle: 'Offline Form App for Design Outreach NGO',
+    name: 'Field Forms',
+    subtitle: 'Offline Form App for an NGO',
     points: [
-      'An <b>offline-first form application</b> for the Design Outreach NGO field teams who work on water pumps.',
+      'An <b>offline-first form application</b> for NGO field teams who work on water pumps.',
       'Teams fill in and submit <b>installation</b>, <b>community assessment</b> and <b>maintenance</b> report forms on the go.',
       'Works <b>fully offline</b>: form data is saved on the device in areas with low connectivity.',
       '<b>Auto-syncs</b> all collected data with the web application once the device is back online.',
