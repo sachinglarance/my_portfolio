@@ -2,7 +2,7 @@
 
 Personal portfolio: Flutter Developer. Built with React + Vite.
 
-**Live:** https://sachinglarance.github.io
+**Live:** https://sachinglarance.github.io/my_portfolio/
 
 ## Run locally
 
