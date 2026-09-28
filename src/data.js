@@ -18,7 +18,7 @@ export const stats = [
 
 export const skills = [
   { icon: '📱', title: 'Languages & Frameworks', tags: ['Flutter', 'Dart'] },
-  { icon: '🧠', title: 'State Management', tags: ['Provider', 'Riverpod'] },
+  { icon: '🧠', title: 'Architecture & State', tags: ['Clean Architecture', 'Provider', 'Riverpod'] },
   { icon: '🔥', title: 'Backend & Database', tags: ['Firebase Auth', 'Firestore', 'FCM', 'REST APIs', 'JSON Parsing', 'SQLite'] },
   { icon: '🧩', title: 'Third-Party Integrations', tags: ['Google Maps', 'Push Notifications', 'Sentry', 'WebSocket'] },
   { icon: '🚀', title: 'DevOps & Deployment', tags: ['CI/CD', 'Fastlane', 'Jenkins', 'Play Store', 'App Store'] },
@@ -29,7 +29,7 @@ export const skills = [
 
 export const softSkills = ['🤝 Teamwork', '⏱️ Time Management', '🧩 Problem Solving', '💡 Critical Thinking']
 
-export const marquee = ['Flutter', 'Dart', 'Firebase', 'Riverpod', 'Provider', 'REST APIs', 'WebSocket', 'Google Maps', 'SQLite', 'Sentry', 'Fastlane', 'Jenkins', 'ChatGPT', 'Claude', 'Cursor']
+export const marquee = ['Flutter', 'Dart', 'Clean Architecture', 'Firebase', 'Riverpod', 'Provider', 'REST APIs', 'WebSocket', 'Google Maps', 'SQLite', 'Sentry', 'Fastlane', 'Jenkins', 'ChatGPT', 'Claude', 'Cursor']
 
 export const experience = [
   {
