@@ -111,12 +111,19 @@ b { color: #fff; font-weight: 600; }
   transition: padding .3s, background .3s, border-color .3s;
   border-bottom: 1px solid transparent;
 }
+/* blur lives on a pseudo-element: backdrop-filter on .nav itself would trap the
+   fixed mobile drawer inside the header box */
+.nav::before {
+  content: ''; position: absolute; inset: 0; z-index: -1;
+  background: rgba(5, 11, 24, .72);
+  backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+  opacity: 0; transition: opacity .3s;
+}
 .nav.scrolled {
   padding-top: 12px; padding-bottom: 12px;
-  background: rgba(5, 11, 24, .72);
-  backdrop-filter: blur(16px);
   border-bottom-color: var(--line);
 }
+.nav.scrolled::before { opacity: 1; }
 .brand { display: flex; align-items: center; gap: 10px; font-family: var(--display); font-weight: 700; font-size: 20px; }
 .nav-links { display: flex; align-items: center; gap: 6px; }
 .nav-links a {
