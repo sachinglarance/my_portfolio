@@ -23,13 +23,13 @@ export const skills = [
   { icon: '🧩', title: 'Third-Party Integrations', tags: ['Google Maps', 'Push Notifications', 'Sentry', 'WebSocket'] },
   { icon: '🚀', title: 'DevOps & Deployment', tags: ['CI/CD', 'Fastlane', 'Jenkins', 'Play Store', 'App Store'] },
   { icon: '🛠️', title: 'Tools & Version Control', tags: ['Git', 'GitHub', 'Jira', 'VS Code', 'Android Studio', 'Xcode'] },
-  { icon: '🤖', title: 'AI-Assisted Development', tags: ['ChatGPT', 'Cursor'], wide: true,
+  { icon: '🤖', title: 'AI-Assisted Development', tags: ['ChatGPT', 'Claude', 'Cursor'], wide: true,
     note: 'I use AI tools every day to speed up development, debugging, code reviews and documentation.' },
 ]
 
 export const softSkills = ['🤝 Teamwork', '⏱️ Time Management', '🧩 Problem Solving', '💡 Critical Thinking']
 
-export const marquee = ['Flutter', 'Dart', 'Clean Architecture', 'Firebase', 'Riverpod', 'Provider', 'REST APIs', 'WebSocket', 'Google Maps', 'SQLite', 'Sentry', 'Fastlane', 'Jenkins', 'ChatGPT', 'Cursor']
+export const marquee = ['Flutter', 'Dart', 'Clean Architecture', 'Firebase', 'Riverpod', 'Provider', 'REST APIs', 'WebSocket', 'Google Maps', 'SQLite', 'Sentry', 'Fastlane', 'Jenkins', 'ChatGPT', 'Claude', 'Cursor']
 
 export const experience = [
   {
