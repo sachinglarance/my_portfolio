@@ -61,7 +61,7 @@ export const experience = [
 export const projects = [
   {
     id: 'care',
-    tag: 'Health-tech · Published on Play Store',
+    tag: 'Health-tech · Live on App Store & Play Store',
     name: 'Home Care Companion',
     subtitle: 'Caregiver & Family Care App',
     points: [
@@ -71,11 +71,11 @@ export const projects = [
       'Care dashboard, effortless check-in, <b>vitals tracking</b> and organised care checklists.',
       'Secure login for caregivers and <b>family members</b>, with <b>Forgot Password</b> account recovery.',
     ],
-    tags: ['Flutter', 'Role-based Auth', 'QR Scanner', 'Real-time Updates', 'Play Store'],
+    tags: ['Flutter', 'Role-based Auth', 'QR Scanner', 'Real-time Updates', 'App Store', 'Play Store'],
   },
   {
     id: 'car',
-    tag: 'Automotive · Multi-tenant · Published on Play Store',
+    tag: 'Automotive · Multi-tenant · Live on App Store & Play Store',
     name: 'Roadside Assist',
     subtitle: 'One-Call Car Repair & Roadside Help',
     points: [
@@ -89,7 +89,7 @@ export const projects = [
   },
   {
     id: 'form',
-    tag: 'NGO · Offline Forms · Published on Play Store',
+    tag: 'NGO · Offline Forms · Live on App Store & Play Store',
     name: 'Field Forms',
     subtitle: 'Offline Form App for an NGO',
     points: [
