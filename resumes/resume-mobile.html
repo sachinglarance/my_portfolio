@@ -19,6 +19,7 @@
   .chips span { font-size: 9.4px; border: 1px solid #6f9e98; border-radius: 20px; padding: 3.5px 9px; color: #e6f2f0; }
   .chips span.hl { background: #5ce0c6; color: #0d3634; border-color: #5ce0c6; font-weight: 700; }
   .contact div { display: flex; align-items: center; gap: 9px; font-size: 10.2px; margin-bottom: 9px; line-height: 1.35; }
+  .contact a { color: inherit; text-decoration: none; }
   .contact i { font-style: normal; width: 18px; height: 18px; border-radius: 50%; background: #1d4f4b; color: #9fe9da; font-size: 7px; display: grid; place-items: center; flex: none; font-weight: 700; }
   .logo { display: flex; justify-content: center; margin-bottom: 6px; }
   h1 { font-size: 34px; font-weight: 800; letter-spacing: -0.5px; color: #142020; }
@@ -74,42 +75,32 @@
     </div>
     <h3>CONTACT</h3>
     <div class="contact">
-      <div><i>☎</i>+91 63790 80998</div>
-      <div><i>@</i>sachinglarance@gmail.com</div>
-      <div><i>in</i>linkedin.com/in/sachinglarance</div>
-      <div><i>gh</i>github.com/sachinglarance</div>
-      <div><i>www</i>sachinglarance.github.io<br>/my_portfolio</div>
+      <div><i>⌖</i>Chennai, Tamil Nadu, India</div>
+      <div><i>☎</i><a href="tel:+916379080998">+91 63790 80998</a></div>
+      <div><i>@</i><a href="mailto:sachinglarance@gmail.com">sachinglarance@gmail.com</a></div>
+      <div><i>in</i><a href="https://www.linkedin.com/in/sachinglarance">linkedin.com/in/sachinglarance</a></div>
+      <div><i>gh</i><a href="https://github.com/sachinglarance">github.com/sachinglarance</a></div>
+      <div><i>www</i><a href="https://sachinglarance.github.io/my_portfolio">sachinglarance.github.io<br>/my_portfolio</a></div>
     </div>
     <h3>SKILLS</h3>
     <h4>LANGUAGES</h4>
-    <div class="chips"><span class="hl">Dart</span><span class="hl">Kotlin</span><span class="hl">Swift</span><span>SQL</span></div>
+    <div class="chips"><span class="hl">Dart</span><span class="hl">Kotlin</span><span>Swift</span><span>SQL</span></div>
     <h4>FRAMEWORKS &amp; UI</h4>
-    <div class="chips"><span class="hl">Flutter</span><span>SwiftUI</span><span>Material 3</span><span>Responsive UI</span><span>Animations</span></div>
-    <h4>NATIVE ANDROID &amp; iOS</h4>
-    <div class="chips"><span>Platform Channels</span><span>Android SDK</span><span>UIKit</span><span>Permissions</span><span>Background Tasks</span><span>Deep Linking</span></div>
+    <div class="chips"><span class="hl">Flutter</span><span>Material 3</span><span>Cupertino Widgets</span><span>Responsive UI</span><span>Animations</span></div>
+    <h4>NATIVE INTEGRATION</h4>
+    <div class="chips"><span>Platform Channels</span><span>Android SDK (Kotlin)</span><span>iOS Setup (Xcode)</span><span>Permissions</span><span>Background Tasks</span><span>Deep Linking</span></div>
     <h4>ARCHITECTURE &amp; STATE</h4>
     <div class="chips"><span>Clean Architecture</span><span>MVVM</span><span>Riverpod</span><span>Provider</span><span>SOLID</span><span>Dependency Injection</span></div>
   </aside>
   <main class="main">
     <h1>SachinCharles <em>A</em></h1>
-    <div class="title">Mobile Developer · Flutter | Android (Kotlin) | iOS (Swift)</div>
-    <p class="summary">Mobile Developer with <b>3+ years</b> of experience building and shipping scalable, high-performance apps for <b>Android &amp; iOS</b>. Strong in <b>Flutter, Dart, Kotlin and Swift</b>, with hands-on native integration via Platform Channels, <b>Clean Architecture / MVVM</b>, Firebase, REST APIs, <b>MQTT</b> and offline-first design. Proven record of fewer crashes and smooth user experiences — from requirements and UI to <b>Play Store &amp; App Store release</b>.</p>
+    <div class="title">Mobile Developer · Flutter &amp; Dart | Native Android (Kotlin)</div>
+    <p class="summary">Flutter-focused Mobile Developer with <b>3+ years</b> of experience building and releasing production apps for <b>Android &amp; iOS</b>. Shipped <b>3 apps live on both the Play Store and App Store</b> across health-tech, automotive and NGO field operations, owning features from requirements to store release with <b>Clean Architecture</b>, native <b>Kotlin</b> modules and <b>CI/CD</b>.</p>
     <div class="kpis">
       <div class="kpi"><b>3+ Years</b><small>Mobile app development</small></div>
       <div class="kpi"><b>3 Apps</b><small>Live on both app stores</small></div>
       <div class="kpi"><b>End-to-End</b><small>Idea to store release</small></div>
     </div>
-    <h2><i>⚡</i>Core Strengths</h2>
-    <ul class="dots grid2">
-      <li>Cross-platform apps with <b>Flutter</b></li>
-      <li>Native modules in <b>Kotlin &amp; Swift</b></li>
-      <li><b>Clean Architecture</b> / MVVM</li>
-      <li><b>Offline-first</b> apps with auto-sync</li>
-      <li>Real-time with <b>Firebase, WebSocket &amp; MQTT</b></li>
-      <li>Performance &amp; <b>crash reduction</b></li>
-      <li><b>CI/CD</b> &amp; store releases</li>
-      <li>Responsive UI/UX with <b>Material 3</b></li>
-    </ul>
     <h2><i>💼</i>Work Experience</h2>
     <div class="timeline">
       <div class="job">
@@ -117,18 +108,38 @@
         <div class="company">E2 Infosystems Pvt Ltd · Chennai</div>
         <ul class="dots">
           <li>Built and shipped <b>scalable cross-platform apps for Android &amp; iOS</b>, owning features end-to-end from design to release.</li>
-          <li>Wrote <b>native Kotlin (Android) and Swift (iOS)</b> modules via Platform Channels for camera/QR, permissions and background sync.</li>
+          <li>Wrote <b>native Android modules in Kotlin</b> via Platform Channels for camera/QR, permissions and background sync; handled <b>iOS project setup in Xcode</b>.</li>
           <li>Integrated <b>REST APIs, Firebase</b> (Auth, Firestore, FCM) and <b>MQTT</b> for real-time data sync and push notifications.</li>
-          <li>Optimized UI rendering and data flows using <b>Flutter DevTools profiling</b> for smooth performance.</li>
-          <li><b>Reduced crash rates</b> using Sentry monitoring; added unit &amp; widget tests to catch regressions early.</li>
+          <li>Optimized UI rendering and data flows using <b>Flutter DevTools profiling</b>, reducing API response time by <b>~25%</b>.</li>
+          <li><b>Reduced crash rates by ~90%</b> using Sentry monitoring; added unit &amp; widget tests to catch regressions early.</li>
           <li>Automated builds with <b>CI/CD (Fastlane, Jenkins)</b>; managed releases via Play Console, App Store Connect &amp; TestFlight.</li>
         </ul>
       </div>
-      <div class="job">
-        <div class="job-head"><b>Flutter &amp; UI/UX Developer Intern</b><span class="tag">Internship</span></div>
-        <div class="company">FintechGie</div>
-        <ul class="dots"><li><b>UI/UX design and Flutter development</b> for health &amp; ed-tech mobile apps.</li></ul>
-      </div>
+    </div>
+    <h2><i>📱</i>Key Projects</h2>
+    <div class="card">
+      <div class="card-head"><b>BT Homecare <small>· a.k.a. BT Caregiver</small></b><span><a class="store" href="https://play.google.com/store/apps/details?id=com.e2infosystems.bt_caregiver">↗ Play Store</a><a class="store" href="https://apps.apple.com/in/app/bt-caregiver/id6482351707">↗ App Store</a></span></div>
+      <ul class="dots">
+        <li>Caregiver &amp; family app with <b>role-based access</b> and <b>real-time</b> updates.</li>
+        <li>Dashboard, check-in, <b>vitals tracking</b>, checklists and native <b>QR scanner</b>.</li>
+      </ul>
+      <div class="stack"><span>Flutter</span><span>Platform Channels</span><span>Role-based Auth</span><span>QR Scanner</span><span>Real-time</span></div>
+    </div>
+    <div class="card">
+      <div class="card-head"><b>ConViniCar <small>· Car Repair &amp; Roadside Help</small></b><span><a class="store" href="https://play.google.com/store/apps/details?id=com.e2infosystems.convini_car">↗ Play Store</a><a class="store" href="https://apps.apple.com/in/app/convinicar/id1588041972">↗ App Store</a></span></div>
+      <ul class="dots">
+        <li><b>Multi-tenant</b> app: one request for towing, repair, rental and insurance.</li>
+        <li>Live tracking &amp; updates with <b>Firebase, WebSocket and Google Maps</b>.</li>
+      </ul>
+      <div class="stack"><span>Flutter</span><span>Firebase</span><span>WebSocket</span><span>Google Maps</span><span>Location Services</span></div>
+    </div>
+    <div class="card">
+      <div class="card-head"><b>BT DO <small>· Offline Form App for NGO</small></b><span><a class="store" href="https://play.google.com/store/apps/details?id=com.e2infosystems.do_app">↗ Play Store</a><a class="store" href="https://apps.apple.com/in/app/bt-do/id1488297807">↗ App Store</a></span></div>
+      <ul class="dots">
+        <li><b>Offline-first</b> forms for pump installation, assessment &amp; maintenance.</li>
+        <li>Saves data on-device and <b>auto-syncs</b> with the web platform.</li>
+      </ul>
+      <div class="stack"><span>Flutter</span><span>Offline-first</span><span>SQLite</span><span>Background Sync</span></div>
     </div>
   </main>
 </div>
@@ -149,35 +160,29 @@
     <div class="chips"><span>English</span><span>Tamil</span></div>
   </aside>
   <main class="main">
-    <div class="header2"><b>SachinCharles A</b><span>Mobile Developer · Flutter | Kotlin | Swift</span></div>
-    <h2><i>📱</i>Key Projects</h2>
-    <div class="card">
-      <div class="card-head"><b>BT Homecare <small>· a.k.a. BT Caregiver</small></b><span><span class="store">↗ Play Store</span><span class="store">↗ App Store</span></span></div>
-      <ul class="dots">
-        <li>Caregiver &amp; family app with <b>role-based access</b> and <b>real-time</b> updates.</li>
-        <li>Dashboard, check-in, <b>vitals tracking</b>, checklists and native <b>QR scanner</b>.</li>
-      </ul>
-      <div class="stack"><span>Flutter</span><span>Kotlin / Swift</span><span>Role-based Auth</span><span>QR Scanner</span><span>Real-time</span></div>
-    </div>
-    <div class="card">
-      <div class="card-head"><b>ConViniCar <small>· Car Repair &amp; Roadside Help</small></b><span><span class="store">↗ Play Store</span><span class="store">↗ App Store</span></span></div>
-      <ul class="dots">
-        <li><b>Multi-tenant</b> app: one request for towing, repair, rental and insurance.</li>
-        <li>Live tracking &amp; updates with <b>Firebase, WebSocket and Google Maps</b>.</li>
-      </ul>
-      <div class="stack"><span>Flutter</span><span>Firebase</span><span>WebSocket</span><span>Google Maps</span><span>Location Services</span></div>
-    </div>
-    <div class="card">
-      <div class="card-head"><b>BT DO <small>· Offline Form App for NGO</small></b><span><span class="store">↗ Play Store</span><span class="store">↗ App Store</span></span></div>
-      <ul class="dots">
-        <li><b>Offline-first</b> forms for pump installation, assessment &amp; maintenance.</li>
-        <li>Saves data on-device and <b>auto-syncs</b> with the web platform.</li>
-      </ul>
-      <div class="stack"><span>Flutter</span><span>Offline-first</span><span>SQLite</span><span>Background Sync</span></div>
+    <div class="header2"><b>SachinCharles A</b><span>Mobile Developer · Flutter &amp; Dart | Kotlin</span></div>
+    <h2><i>⚡</i>Core Strengths</h2>
+    <ul class="dots grid2">
+      <li>Cross-platform apps with <b>Flutter</b></li>
+      <li>Native Android modules in <b>Kotlin</b></li>
+      <li><b>Clean Architecture</b> / MVVM</li>
+      <li><b>Offline-first</b> apps with auto-sync</li>
+      <li>Real-time with <b>Firebase, WebSocket &amp; MQTT</b></li>
+      <li>Performance &amp; <b>crash reduction</b></li>
+      <li><b>CI/CD</b> &amp; store releases</li>
+      <li>Responsive UI/UX with <b>Material 3</b></li>
+    </ul>
+    <h2><i>🚀</i>Internship</h2>
+    <div class="timeline">
+      <div class="job">
+        <div class="job-head"><b>Flutter &amp; UI/UX Developer Intern</b><span class="tag">2020 – 2022</span></div>
+        <div class="company">FintechGie</div>
+        <ul class="dots"><li><b>UI/UX design and Flutter development</b> for health &amp; ed-tech mobile apps.</li></ul>
+      </div>
     </div>
     <h2><i>🎓</i>Education</h2>
     <div class="card">
-      <div class="card-head"><b>B.E. Electronics &amp; Communication Engineering</b><span class="tag">CGPA 8.49</span></div>
+      <div class="card-head"><b>B.E. Electronics &amp; Communication Engineering</b><span class="tag">2023 · CGPA 8.49</span></div>
       <div class="company" style="margin:0">Sri Shanmugha College of Engineering and Technology</div>
     </div>
     <h2><i>🏆</i>Achievements</h2>
