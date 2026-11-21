@@ -37,7 +37,7 @@ export const experience = [
   {
     role: 'Mobile Developer (Flutter)',
     company: 'E2 Infosystems Pvt Ltd · Chennai',
-    period: 'MAR 2023 — PRESENT',
+    period: 'JUN 2023 — PRESENT',
     points: [
       'Built and shipped <b>scalable cross-platform apps for Android & iOS</b>, owning features end-to-end from design to release.',
       'Wrote <b>native Android modules in Kotlin</b> via Platform Channels for camera/QR, permissions and background sync, and handled <b>iOS project setup in Xcode</b>.',
@@ -45,6 +45,14 @@ export const experience = [
       'Optimized UI rendering and data flows using <b>Flutter DevTools</b> profiling, reducing API response time by <b>~25%</b>.',
       '<b>Reduced crash rates by ~90%</b> using Sentry monitoring; added unit & widget tests to catch regressions early.',
       'Automated builds with <b>CI/CD (Fastlane, Jenkins)</b>; managed releases via Play Console, App Store Connect & TestFlight.',
+    ],
+  },
+  {
+    role: 'Trainee',
+    company: 'E2 Infosystems Pvt Ltd · Chennai',
+    period: 'MAR 2023 — MAY 2023',
+    points: [
+      'Trained on <b>Flutter, Dart</b> and the team\'s mobile development workflow before moving into a full-time developer role.',
     ],
   },
   {
