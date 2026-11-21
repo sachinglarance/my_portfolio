@@ -2,7 +2,7 @@
 
 export const profile = {
   name: 'SachinCharles A',
-  roles: ['Mobile Developer', 'Flutter Developer', 'Android · Kotlin', 'iOS · Swift', 'Cross-Platform Builder'],
+  roles: ['Flutter Developer', 'Mobile Developer', 'Android & iOS with Flutter', 'Native Android · Kotlin', 'Cross-Platform Builder'],
   email: 'sachinglarance@gmail.com',
   phone: '+91 63790 80998',
   phoneRaw: '+916379080998',
@@ -18,8 +18,8 @@ export const stats = [
 
 export const skills = [
   { icon: '📱', title: 'Languages', tags: ['Dart', 'Kotlin', 'Swift', 'SQL'] },
-  { icon: '🎨', title: 'Frameworks & UI', tags: ['Flutter', 'SwiftUI', 'Material 3', 'Responsive UI', 'Animations'] },
-  { icon: '⚙️', title: 'Native Android & iOS', tags: ['Platform Channels', 'Android SDK', 'UIKit', 'Permissions', 'Background Tasks', 'Deep Linking'] },
+  { icon: '🎨', title: 'Frameworks & UI', tags: ['Flutter', 'Material 3', 'Cupertino Widgets', 'Responsive UI', 'Animations'] },
+  { icon: '⚙️', title: 'Native Integration', tags: ['Platform Channels', 'Android SDK (Kotlin)', 'iOS Setup in Xcode', 'Permissions', 'Background Tasks', 'Deep Linking'] },
   { icon: '🧠', title: 'Architecture & State', tags: ['Clean Architecture', 'MVVM', 'Riverpod', 'Provider', 'SOLID', 'Dependency Injection'] },
   { icon: '🔥', title: 'Backend, Data & Offline', tags: ['REST APIs', 'Dio', 'WebSocket', 'MQTT', 'Firebase Auth', 'Firestore', 'FCM', 'SQLite', 'Offline Sync'] },
   { icon: '🧪', title: 'Quality & Performance', tags: ['Unit / Widget Tests', 'Integration Tests', 'Sentry', 'Flutter DevTools', 'Secure Storage'] },
@@ -40,17 +40,17 @@ export const experience = [
     period: 'MAR 2023 — PRESENT',
     points: [
       'Built and shipped <b>scalable cross-platform apps for Android & iOS</b>, owning features end-to-end from design to release.',
-      'Wrote <b>native Kotlin (Android) and Swift (iOS)</b> modules via Platform Channels for camera/QR, permissions and background sync.',
+      'Wrote <b>native Android modules in Kotlin</b> via Platform Channels for camera/QR, permissions and background sync, and handled <b>iOS project setup in Xcode</b>.',
       'Integrated <b>REST APIs</b>, <b>Firebase</b> (Auth, Firestore, FCM) and <b>MQTT</b> for real-time data sync and push notifications.',
-      'Optimized UI rendering and data flows using <b>Flutter DevTools</b> profiling for smooth performance.',
-      '<b>Reduced crash rates</b> using Sentry monitoring; added unit & widget tests to catch regressions early.',
+      'Optimized UI rendering and data flows using <b>Flutter DevTools</b> profiling, reducing API response time by <b>~25%</b>.',
+      '<b>Reduced crash rates by ~90%</b> using Sentry monitoring; added unit & widget tests to catch regressions early.',
       'Automated builds with <b>CI/CD (Fastlane, Jenkins)</b>; managed releases via Play Console, App Store Connect & TestFlight.',
     ],
   },
   {
     role: 'Flutter & UI/UX Developer Intern',
     company: 'FintechGie',
-    period: 'INTERNSHIP',
+    period: '2020 — 2022',
     points: [
       '<b>UI/UX design</b> and <b>Flutter development</b> for health & ed-tech mobile apps.',
       'Gained hands-on experience building and maintaining mobile applications.',
@@ -66,12 +66,12 @@ export const projects = [
     subtitle: 'Caregiver & Family Care App',
     points: [
       'Connects <b>caregivers and families</b> with secure, <b>role-based access</b> to care information.',
-      'Caregivers view assigned communities and resident info, and coordinate care tasks with a <b>native QR scanner</b> (Kotlin / Swift) for hands-free workflows.',
+      'Caregivers view assigned communities and resident info, and coordinate care tasks with a <b>native QR scanner</b> (Kotlin, via Platform Channels) for hands-free workflows.',
       'Family members select their loved one and get <b>real-time updates</b> from anywhere.',
       'Care dashboard, effortless check-in, <b>vitals tracking</b> and organised care checklists.',
       'Secure login for caregivers and <b>family members</b>, with <b>Forgot Password</b> account recovery.',
     ],
-    tags: ['Flutter', 'Kotlin / Swift', 'Role-based Auth', 'QR Scanner', 'Real-time'],
+    tags: ['Flutter', 'Platform Channels', 'Role-based Auth', 'QR Scanner', 'Real-time'],
   },
   {
     id: 'car',
@@ -109,7 +109,7 @@ export const codeTokens = [
   ['  final ', 'k'], ['name ', ''], ['= ', ''], ["'SachinCharles A'", 's'], [';\n', ''],
   ['  final ', 'k'], ['role ', ''], ['= ', ''], ["'Mobile Developer'", 's'], [';\n', ''],
   ['  final ', 'k'], ['experience ', ''], ['= ', ''], ['3', 'n'], [';  ', ''], ['// years+\n', 'c'],
-  ['  final ', 'k'], ['stack ', ''], ['= [', ''], ["'Flutter'", 's'], [', ', ''], ["'Kotlin'", 's'], [', ', ''], ["'Swift'", 's'], ['];\n\n', ''],
+  ['  final ', 'k'], ['stack ', ''], ['= [', ''], ["'Flutter'", 's'], [', ', ''], ["'Dart'", 's'], [', ', ''], ["'Kotlin'", 's'], ['];\n\n', ''],
   ['  @override\n', 'c'],
   ['  Widget ', 't'], ['build', 'f'], ['(BuildContext context) {\n', ''],
   ['    return ', 'k'], ['HighPerformanceApp', 't'], ['(\n', ''],

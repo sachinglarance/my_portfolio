@@ -50,16 +50,17 @@ export default function About() {
         <div className="about-text reveal">
           <p>
             I'm a <b>Mobile Developer with 3+ years of experience</b> building and shipping scalable, high-performance
-            apps for Android &amp; iOS. I work with Flutter, Dart, Kotlin and Swift, with native integration via
-            Platform Channels, Clean Architecture / MVVM, Firebase, REST APIs, WebSocket / MQTT and offline-first design.
+            apps for Android &amp; iOS. <b>Flutter and Dart</b> are my core strength. I write native Android modules in
+            <b>Kotlin</b> through Platform Channels and handle iOS project setup in Xcode.
+            I build with Clean Architecture / MVVM, Firebase, REST APIs, WebSocket / MQTT and offline-first design.
           </p>
           <p>
-            I care about <b>performance and stability</b>. I profile with Flutter DevTools, reduce crash rates with Sentry
-            and unit &amp; widget tests, and automate releases with Fastlane &amp; Jenkins. I've shipped <b>3 production apps</b>
+            I care about <b>performance and stability</b>. I profile with Flutter DevTools (cutting API response time by <b>~25%</b>),
+            use Sentry and unit &amp; widget tests (crash rates down <b>~90%</b>), and automate releases with Fastlane &amp; Jenkins. I've shipped <b>3 production apps</b>
             to the App Store &amp; Play Store, end-to-end.
           </p>
           <div className="about-cards">
-            <div className="mini-card"><span>🎓</span><div><b>B.E. (ECE)</b><small>Sri Shanmugha College of Engg. &amp; Tech · CGPA 8.49</small></div></div>
+            <div className="mini-card"><span>🎓</span><div><b>B.E. (ECE)</b><small>Sri Shanmugha College of Engg. &amp; Tech · 2023 · CGPA 8.49</small></div></div>
             <div className="mini-card"><span>🏆</span><div><b>Leadership</b><small>President, Sports &amp; Cultural team · Overall championship in intercollege events</small></div></div>
             <div className="mini-card"><span>🗣️</span><div><b>Languages</b><small>Tamil · English</small></div></div>
           </div>
