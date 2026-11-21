@@ -43,19 +43,20 @@ export default function About() {
             <div className="photo-ring" />
             <ProfilePhoto className="photo" />
           </div>
-          <div className="photo-chip pc-1">💙 Flutter Dev</div>
+          <div className="photo-chip pc-1">📱 Mobile Dev</div>
           <div className="photo-chip pc-2"><b>3+</b> yrs building apps</div>
           <div className="photo-chip pc-3">📍 Chennai, IN</div>
         </div>
         <div className="about-text reveal">
           <p>
-            I'm a <b>Flutter Developer with 3+ years of experience</b> building scalable, cross-platform mobile
-            applications for Android &amp; iOS. I work mainly with Flutter, Dart, Firebase and REST API integration.
+            I'm a <b>Mobile Developer with 3+ years of experience</b> building and shipping scalable, high-performance
+            apps for Android &amp; iOS. I work with Flutter, Dart, Kotlin and Swift, with native integration via
+            Platform Channels, Clean Architecture / MVVM, Firebase, REST APIs, WebSocket / MQTT and offline-first design.
           </p>
           <p>
-            I care about <b>performance</b>. I've optimized UI rendering, cut API response time by ~25% and reduced
-            crash rates with Sentry monitoring. I've worked across the full software lifecycle, from requirements to
-            deployment, in fast-paced teams.
+            I care about <b>performance and stability</b>. I profile with Flutter DevTools, reduce crash rates with Sentry
+            and unit &amp; widget tests, and automate releases with Fastlane &amp; Jenkins. I've shipped <b>3 production apps</b>
+            to the App Store &amp; Play Store, end-to-end.
           </p>
           <div className="about-cards">
             <div className="mini-card"><span>🎓</span><div><b>B.E. (ECE)</b><small>Sri Shanmugha College of Engg. &amp; Tech · CGPA 8.49</small></div></div>

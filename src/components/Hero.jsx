@@ -36,8 +36,8 @@ export default function Hero() {
           <span className="mono muted">&gt;</span> <span>{typed}</span><span className="caret">|</span>
         </h2>
         <p className="lead reveal">
-          I build <b>scalable, high-performance</b> cross-platform mobile apps with <b>Flutter</b>, <b>Dart</b> &amp; <b>Firebase</b>,
-          from the first widget all the way to the Play Store &amp; App Store.
+          I build <b>scalable, high-performance</b> apps for Android &amp; iOS with <b>Flutter</b>, <b>Kotlin</b> &amp; <b>Swift</b>,
+          from requirements and UI all the way to the Play Store &amp; App Store.
         </p>
         <div className="hero-cta reveal">
           <a href="#projects" className="btn btn-primary">
