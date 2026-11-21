@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SachinCharles A · Mobile Developer Resume</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', sans-serif; color: #1f2a2a; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page { width: 210mm; height: 297mm; display: flex; overflow: hidden; page-break-after: always; }
+  .page:last-child { page-break-after: auto; }
+  .side { width: 67mm; background: #0d3634; color: #e6f2f0; padding: 11mm 7mm 8mm 8mm; }
+  .main { flex: 1; padding: 11mm 9mm 8mm 10mm; }
+  .side h3 { font-size: 10.5px; letter-spacing: 3.5px; color: #5ce0c6; font-weight: 700; display: flex; align-items: center; gap: 8px; margin: 22px 0 12px; }
+  .side h3::after { content: ''; flex: 1; height: 1px; background: #2f6f69; }
+  .side h4 { font-size: 9.2px; letter-spacing: 1.6px; color: #b9d6d1; font-weight: 600; margin: 12px 0 6px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 5px; }
+  .chips span { font-size: 9.4px; border: 1px solid #6f9e98; border-radius: 20px; padding: 3.5px 9px; color: #e6f2f0; }
+  .chips span.hl { background: #5ce0c6; color: #0d3634; border-color: #5ce0c6; font-weight: 700; }
+  .contact div { display: flex; align-items: center; gap: 9px; font-size: 10.2px; margin-bottom: 9px; line-height: 1.35; }
+  .contact i { font-style: normal; width: 18px; height: 18px; border-radius: 50%; background: #1d4f4b; color: #9fe9da; font-size: 7px; display: grid; place-items: center; flex: none; font-weight: 700; }
+  .logo { display: flex; justify-content: center; margin-bottom: 6px; }
+  h1 { font-size: 34px; font-weight: 800; letter-spacing: -0.5px; color: #142020; }
+  h1 em { font-style: normal; color: #1f9e86; }
+  .title { color: #1f8a76; font-weight: 600; font-size: 13.5px; margin: 6px 0 12px; }
+  .summary { font-size: 11.2px; line-height: 1.62; color: #3b4747; }
+  .summary b { color: #142020; }
+  .kpis { display: flex; gap: 8px; margin: 14px 0 6px; }
+  .kpi { flex: 1; border: 1px solid #cbe9e2; background: #f1faf8; border-radius: 8px; padding: 9px 11px; }
+  .kpi b { display: block; font-size: 19px; color: #1f8a76; font-weight: 700; }
+  .kpi small { font-size: 9px; color: #556; }
+  h2 { font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 9px; margin: 18px 0 10px; color: #142020; }
+  h2 i { font-style: normal; width: 20px; height: 20px; background: #1f8a76; border-radius: 5px; display: grid; place-items: center; font-size: 10px; }
+  ul.dots { list-style: none; }
+  ul.dots li { font-size: 10.8px; line-height: 1.55; padding-left: 13px; position: relative; margin-bottom: 4px; color: #2d3838; }
+  ul.dots li::before { content: ''; position: absolute; left: 0; top: 5px; width: 5px; height: 5px; background: #1f8a76; border-radius: 1px; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; column-gap: 14px; }
+  .timeline { border-left: 1.5px solid #8fd3c4; margin-left: 5px; padding-left: 14px; }
+  .job { position: relative; margin-bottom: 12px; }
+  .job::before { content: ''; position: absolute; left: -20px; top: 3px; width: 8px; height: 8px; border: 1.5px solid #1f8a76; border-radius: 50%; background: #fff; }
+  .job-head { display: flex; justify-content: space-between; align-items: center; }
+  .job-head b { font-size: 13px; }
+  .tag { font-size: 9px; font-weight: 600; color: #1f6f60; background: #e5f6f2; border-radius: 10px; padding: 2px 8px; }
+  .company { font-size: 10px; color: #667; margin: 2px 0 6px; }
+  .header2 { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #d5e8e4; padding-bottom: 10px; margin-bottom: 8px; }
+  .header2 b { font-size: 16px; }
+  .header2 span { font-size: 10px; color: #1f8a76; font-weight: 600; }
+  .card { border: 1px solid #e3ecea; border-left: 3px solid #1f8a76; border-radius: 6px; padding: 10px 12px; margin-bottom: 10px; box-shadow: 0 1px 2px rgba(0,0,0,.04); }
+  .card-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+  .card-head b { font-size: 13.5px; }
+  .card-head small { font-size: 9px; color: #667; font-weight: 400; }
+  .store { font-size: 9px; font-weight: 600; color: #1f6f60; border: 1px solid #bfe6dc; background: #f1faf8; border-radius: 12px; padding: 2px 8px; margin-left: 4px; text-decoration: none; }
+  .stack { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px; }
+  .stack span { font-size: 9px; background: #eef7f5; color: #1f5f55; padding: 3px 8px; border-radius: 3px; }
+</style>
+</head>
+<body>
+<!-- PAGE 1 -->
+<div class="page">
+  <aside class="side">
+    <div class="logo">
+      <svg width="130" height="125" viewBox="0 0 130 125">
+        <circle cx="65" cy="62" r="52" fill="none" stroke="#5ce0c6" stroke-width="1.3"/>
+        <rect x="50" y="38" width="30" height="48" rx="5" fill="none" stroke="#5ce0c6" stroke-width="2"/>
+        <text x="65" y="66" text-anchor="middle" fill="#5ce0c6" font-size="11" font-weight="700" font-family="Inter">&lt;/&gt;</text>
+        <g font-family="Inter" font-size="7" font-weight="700" fill="#0d3634" text-anchor="middle">
+          <circle cx="28" cy="25" r="11" fill="#fff"/><text x="28" y="27.5">KT</text>
+          <circle cx="102" cy="25" r="11" fill="#fff"/><text x="102" y="27.5">SW</text>
+          <circle cx="28" cy="100" r="11" fill="#fff"/><text x="28" y="102.5">DT</text>
+          <circle cx="102" cy="100" r="11" fill="#fff"/><text x="102" y="102.5">FL</text>
+        </g>
+      </svg>
+    </div>
+    <h3>CONTACT</h3>
+    <div class="contact">
+      <div><i>☎</i>+91 63790 80998</div>
+      <div><i>@</i>sachinglarance@gmail.com</div>
+      <div><i>in</i>linkedin.com/in/sachinglarance</div>
+      <div><i>gh</i>github.com/sachinglarance</div>
+      <div><i>www</i>sachinglarance.github.io<br>/my_portfolio</div>
+    </div>
+    <h3>SKILLS</h3>
+    <h4>LANGUAGES</h4>
+    <div class="chips"><span class="hl">Dart</span><span class="hl">Kotlin</span><span class="hl">Swift</span><span>SQL</span></div>
+    <h4>FRAMEWORKS &amp; UI</h4>
+    <div class="chips"><span class="hl">Flutter</span><span>SwiftUI</span><span>Material 3</span><span>Responsive UI</span><span>Animations</span></div>
+    <h4>NATIVE ANDROID &amp; iOS</h4>
+    <div class="chips"><span>Platform Channels</span><span>Android SDK</span><span>UIKit</span><span>Permissions</span><span>Background Tasks</span><span>Deep Linking</span></div>
+    <h4>ARCHITECTURE &amp; STATE</h4>
+    <div class="chips"><span>Clean Architecture</span><span>MVVM</span><span>Riverpod</span><span>Provider</span><span>SOLID</span><span>Dependency Injection</span></div>
+  </aside>
+  <main class="main">
+    <h1>SachinCharles <em>A</em></h1>
+    <div class="title">Mobile Developer · Flutter | Android (Kotlin) | iOS (Swift)</div>
+    <p class="summary">Mobile Developer with <b>3+ years</b> of experience building and shipping scalable, high-performance apps for <b>Android &amp; iOS</b>. Strong in <b>Flutter, Dart, Kotlin and Swift</b>, with hands-on native integration via Platform Channels, <b>Clean Architecture / MVVM</b>, Firebase, REST APIs, <b>MQTT</b> and offline-first design. Proven record of fewer crashes and smooth user experiences — from requirements and UI to <b>Play Store &amp; App Store release</b>.</p>
+    <div class="kpis">
+      <div class="kpi"><b>3+ Years</b><small>Mobile app development</small></div>
+      <div class="kpi"><b>3 Apps</b><small>Live on both app stores</small></div>
+      <div class="kpi"><b>End-to-End</b><small>Idea to store release</small></div>
+    </div>
+    <h2><i>⚡</i>Core Strengths</h2>
+    <ul class="dots grid2">
+      <li>Cross-platform apps with <b>Flutter</b></li>
+      <li>Native modules in <b>Kotlin &amp; Swift</b></li>
+      <li><b>Clean Architecture</b> / MVVM</li>
+      <li><b>Offline-first</b> apps with auto-sync</li>
+      <li>Real-time with <b>Firebase, WebSocket &amp; MQTT</b></li>
+      <li>Performance &amp; <b>crash reduction</b></li>
+      <li><b>CI/CD</b> &amp; store releases</li>
+      <li>Responsive UI/UX with <b>Material 3</b></li>
+    </ul>
+    <h2><i>💼</i>Work Experience</h2>
+    <div class="timeline">
+      <div class="job">
+        <div class="job-head"><b>Mobile Developer (Flutter)</b><span class="tag">Mar 2023 – Present</span></div>
+        <div class="company">E2 Infosystems Pvt Ltd · Chennai</div>
+        <ul class="dots">
+          <li>Built and shipped <b>scalable cross-platform apps for Android &amp; iOS</b>, owning features end-to-end from design to release.</li>
+          <li>Wrote <b>native Kotlin (Android) and Swift (iOS)</b> modules via Platform Channels for camera/QR, permissions and background sync.</li>
+          <li>Integrated <b>REST APIs, Firebase</b> (Auth, Firestore, FCM) and <b>MQTT</b> for real-time data sync and push notifications.</li>
+          <li>Optimized UI rendering and data flows using <b>Flutter DevTools profiling</b> for smooth performance.</li>
+          <li><b>Reduced crash rates</b> using Sentry monitoring; added unit &amp; widget tests to catch regressions early.</li>
+          <li>Automated builds with <b>CI/CD (Fastlane, Jenkins)</b>; managed releases via Play Console, App Store Connect &amp; TestFlight.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-head"><b>Flutter &amp; UI/UX Developer Intern</b><span class="tag">Internship</span></div>
+        <div class="company">FintechGie</div>
+        <ul class="dots"><li><b>UI/UX design and Flutter development</b> for health &amp; ed-tech mobile apps.</li></ul>
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- PAGE 2 -->
+<div class="page">
+  <aside class="side">
+    <h3 style="margin-top:4px">SKILLS (CONT.)</h3>
+    <h4>BACKEND, DATA &amp; OFFLINE</h4>
+    <div class="chips"><span>REST APIs</span><span>Dio</span><span>WebSocket</span><span>MQTT</span><span>Firebase Auth</span><span>Firestore</span><span>FCM</span><span>SQLite</span><span>Offline Sync</span></div>
+    <h4>QUALITY &amp; PERFORMANCE</h4>
+    <div class="chips"><span>Unit / Widget Tests</span><span>Integration Tests</span><span>Sentry</span><span>Flutter DevTools</span><span>Secure Storage</span></div>
+    <h4>CI/CD &amp; RELEASE</h4>
+    <div class="chips"><span>Fastlane</span><span>Jenkins</span><span>Play Console</span><span>App Store Connect</span><span>TestFlight</span></div>
+    <h4>TOOLS &amp; WORKFLOW</h4>
+    <div class="chips"><span>Git</span><span>Android Studio</span><span>Xcode</span><span>Jira</span><span>Postman</span><span>Bruno</span><span>Cursor / Claude</span></div>
+    <h3>LANGUAGES</h3>
+    <div class="chips"><span>English</span><span>Tamil</span></div>
+  </aside>
+  <main class="main">
+    <div class="header2"><b>SachinCharles A</b><span>Mobile Developer · Flutter | Kotlin | Swift</span></div>
+    <h2><i>📱</i>Key Projects</h2>
+    <div class="card">
+      <div class="card-head"><b>BT Homecare <small>· a.k.a. BT Caregiver</small></b><span><span class="store">↗ Play Store</span><span class="store">↗ App Store</span></span></div>
+      <ul class="dots">
+        <li>Caregiver &amp; family app with <b>role-based access</b> and <b>real-time</b> updates.</li>
+        <li>Dashboard, check-in, <b>vitals tracking</b>, checklists and native <b>QR scanner</b>.</li>
+      </ul>
+      <div class="stack"><span>Flutter</span><span>Kotlin / Swift</span><span>Role-based Auth</span><span>QR Scanner</span><span>Real-time</span></div>
+    </div>
+    <div class="card">
+      <div class="card-head"><b>ConViniCar <small>· Car Repair &amp; Roadside Help</small></b><span><span class="store">↗ Play Store</span><span class="store">↗ App Store</span></span></div>
+      <ul class="dots">
+        <li><b>Multi-tenant</b> app: one request for towing, repair, rental and insurance.</li>
+        <li>Live tracking &amp; updates with <b>Firebase, WebSocket and Google Maps</b>.</li>
+      </ul>
+      <div class="stack"><span>Flutter</span><span>Firebase</span><span>WebSocket</span><span>Google Maps</span><span>Location Services</span></div>
+    </div>
+    <div class="card">
+      <div class="card-head"><b>BT DO <small>· Offline Form App for NGO</small></b><span><span class="store">↗ Play Store</span><span class="store">↗ App Store</span></span></div>
+      <ul class="dots">
+        <li><b>Offline-first</b> forms for pump installation, assessment &amp; maintenance.</li>
+        <li>Saves data on-device and <b>auto-syncs</b> with the web platform.</li>
+      </ul>
+      <div class="stack"><span>Flutter</span><span>Offline-first</span><span>SQLite</span><span>Background Sync</span></div>
+    </div>
+    <h2><i>🎓</i>Education</h2>
+    <div class="card">
+      <div class="card-head"><b>B.E. Electronics &amp; Communication Engineering</b><span class="tag">CGPA 8.49</span></div>
+      <div class="company" style="margin:0">Sri Shanmugha College of Engineering and Technology</div>
+    </div>
+    <h2><i>🏆</i>Achievements</h2>
+    <ul class="dots">
+      <li>Shipped <b>3 production apps</b> to App Store &amp; Play Store, end-to-end.</li>
+      <li>Sports &amp; cultural team President; won the <b>overall inter-college championship</b>.</li>
+    </ul>
+  </main>
+</div>
+</body>
+</html>
